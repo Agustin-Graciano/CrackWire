@@ -1,13 +1,22 @@
 <template>
-  <div>
-    <div class="flex justify-end bg-black py-6">
+    <div class="flex items-center justify-start bg-black py-4">
+      <div class="flex h-12 w-32 flex-shrink-0 mx-5">
+        <img src="../assets/CrackWire.png" alt="Logo" class="h-full w-full">
+      </div>
+      <div class="flex-grow"></div>
+      <div>
+      <router-link to="/"
+                   class="text-white ml-auto mr-6 hover:text-eg-blue cursor-pointer">Log in
+              
+      </router-link>
       <router-link 
-              to='/SignUp' 
-              class="text-white mr-6 hover:text-eg-blue cursor-pointer">Sign Up
+                   to="/Register" 
+                   class="text-white ml-auto mr-6 hover:text-eg-blue cursor-pointer">Register
       </router-link>
     </div>
   </div>
 </template>
+
 
 <script>
 export default {

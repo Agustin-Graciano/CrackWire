@@ -1,13 +1,13 @@
     <template>
         <div class="flex flex-col min-h-screen ">
          <Navbar/>
-          <div class="flex-grow flex justify-center items-center py-5">
+          <div class="flex-grow flex justify-center items-center py-5 bg-dark-grey">
            <div class="sm:w-2/3 md:w-1/3 lg:w-1/3 xl:w-1/3">
-            <div class="box-content px-4 py-2 border-2 rounded drop-shadow-sm">
-             <div class="font-bold text-2xl text-center py-2">Sign Up</div>
+            <div class="box-content px-4 py-2 border-2 rounded drop-shadow-sm bg-white">
+             <div class="font-bold text-2xl text-center my-2">Register</div>
 
             <form>
-             <label for="username" class="block mt-5">
+             <label for="username" class="block my-4">
               <span class="block text-sm font-medium text-slate-200">Username</span>
               <input
                     id="username"
@@ -17,7 +17,7 @@
               />
               </label>
               
-              <label for="email" class="block mt-5">
+              <label for="email" class="block my-4">
                 <span class="block text-sm font-medium text-slate-200">E-mail</span>
                 <input
                       id="email"
@@ -27,7 +27,7 @@
               />
               </label>
 
-              <label for="password" class="block mt-5">
+              <label for="password" class="block my-4">
               <span class="block text-sm font-medium text-slate-200">Password</span>
               <input
                     id="password"
@@ -37,8 +37,8 @@
                />
               </label>
 
-            <div class="my-4">
-            <button class="py-2 px-4 bg-black text-white rounded-md">Sign Up</button>
+            <div class="my-2">
+            <button class="py-2 px-4 bg-black text-white rounded-md">Register</button>
              </div>
            </form>
  
