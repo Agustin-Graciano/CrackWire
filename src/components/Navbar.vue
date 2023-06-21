@@ -5,6 +5,10 @@
       </div>
       <div class="flex-grow"></div>
       <div>
+      <router-link
+                  to="/Account"
+                  class="text-white ml-auto mr-6 hover:text-eg-blue cursor-pointer">Account
+      </router-link>
       <router-link to="/"
                    class="text-white ml-auto mr-6 hover:text-eg-blue cursor-pointer">Log in
               
