@@ -9,8 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "hooper-vue3": "^0.4.5",
     "vue": "^3.2.47",
-    "vue-router": "^4.2.2"
+    "vue-carousel": "^0.18.0",
+    "vue-carousel-3d": "^1.0.1",
+    "vue-router": "^4.2.2",
+    "vue3-agile": "^0.2.0",
+    "vue3-carousel": "^0.3.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",

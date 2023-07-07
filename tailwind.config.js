@@ -10,6 +10,7 @@ export default {
       'eg-blue': '#1434A4',
       'white': '#FFFFFF',
       'dark-grey': '#283747',
+      'green': '#0BDA51',
   },
 },
   plugins: [],
