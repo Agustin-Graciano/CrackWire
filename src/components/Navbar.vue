@@ -1,6 +1,6 @@
 <template>
     <div class="flex items-center justify-start bg-black py-4">
-      <div class="flex h-12 w-40 flex-shrink-0 mx-5">
+      <div class="flex h-14 w-40 flex-shrink-0 mx-5">
         <img src="../assets/CrackWire.png"
              alt="Logo" 
              class="h-18 w-18">
